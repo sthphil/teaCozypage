@@ -95,18 +95,28 @@ li a {
 
 .loc-cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   margin-top: 15px;
 }
 
 .location-card {
   width: 300px;
   background-color: black;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .middle-card {
   margin-left: 40px;
   margin-right: 40px;
+}
+
+/* Footer Section */
+footer .info {
+  height: 200px;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
 }
