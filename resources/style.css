@@ -66,7 +66,7 @@ li a {
 /* Tea of The Month Section */
 .totm {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .products {
@@ -86,11 +86,27 @@ li a {
   height: 500px;
   width: 1200px;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
-  margin: 0 auto;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .loc-cards {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  margin-top: 15px;
+}
+
+.location-card {
+  width: 300px;
+  background-color: black;
+}
+
+.middle-card {
+  margin-left: 40px;
+  margin-right: 40px;
 }
