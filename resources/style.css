@@ -80,6 +80,11 @@ li a {
   height: auto;
 }
 
-
 /* Location Section */
 
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: 0 auto;
+}
