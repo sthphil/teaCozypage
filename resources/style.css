@@ -1,0 +1,85 @@
+html {
+  font-size: 22px;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  height: 69px;
+
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+header nav {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+li a {
+  color: seashell;
+}
+
+/* Main Section */
+
+/* Thumbnail section */
+
+.thumbnail {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail-content {
+  width: 100%;
+  background-color: black;
+}
+
+/* Tea of The Month Section */
+.totm {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card img {
+  width: 300px;
+  height: auto;
+}
+
+
+/* Location Section */
+
